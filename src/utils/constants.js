@@ -115,5 +115,5 @@ export const defaultClothingItems = [
   };
 
   export const APIkey = import.meta.env.VITE_API_KEY;
-  console.log(APIkey);
+ 
 
