@@ -1,7 +1,8 @@
 .header{
     display: flex;
     align-items: center;
-    padding: 32px 0 28px;
+    padding: 0;
+    margin: 32px 40px 28px
 }
 
 .header__logo {
