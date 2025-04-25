@@ -1,5 +1,10 @@
+.cards {
+    margin: 0 40px 0 40px;
+
+}
+
 .cards__text {
-    margin: 0 40px 34px 40px;
+    margin: 0 0 34px 0;
     font-family: Cabinet Grotesk;
     font-weight: 700;
     font-size: 20px;
