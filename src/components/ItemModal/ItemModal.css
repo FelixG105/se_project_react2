@@ -39,18 +39,17 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    /* font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2; */
+}
+
+.modal__footer-caption, 
+.modal__footer-weather {
+    margin: 0;
     font-family: 'Cabinet Grotesk', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
-
-
-}
-
-.modal__caption {
-    margin: 0;
-}
-
-.modal__weather {
-    margin: 0;
 }

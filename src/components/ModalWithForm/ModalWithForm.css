@@ -68,6 +68,9 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 24px; 
+    text-align: left;
+    align-items: flex-start;
+    
 }
 
 .modal__input {
@@ -77,6 +80,8 @@
     width: 100%;
     box-sizing: border-box;
     margin-top: 8px;
+    text-align: left;
+    padding: 0;
 
 }
 
@@ -89,13 +94,21 @@
     accent-color: #000;
 }
 
+
+
 .modal__label_type_radio {
     margin: 0 0 8px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 8px;
+    color: rgba(0, 0, 0, 0.5);
 }
+
+
+.modal__radio-buttons input[type="radio"]:checked ~ span {
+    color: #000; 
+   }
 
 .modal__legend {
     margin: 24px 0 12px;
@@ -110,6 +123,11 @@
     border: none;
     background-color: #000;
     color: #fff;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+
 }
 
 .modal__submit:hover {
